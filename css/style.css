@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* 
+    -- Soft orange: hsl(35, 77%, 62%)
+    
+    --Soft red: hsl(5, 85%, 63%);
+
+    --Very dark 
+    
+    --Off-white: hsl(36, 100%, 99%);
+    
+    --Grayish blue: hsl(233, 8%, 79%);
+    
+    --Dark grayish blue: hsl(236, 13%, 42%);
+    blue: hsl(240, 100%, 5%); */
+
+
+ 
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    padding: 90px;
+
+}
+
+.cabecalho-logo {
+    padding-left: 20px;
+}
+
+#cabecalho-menu ul {
+    display: inline-flex;
+    
+    list-style: none;
+
+
+}
+
+#cabecalho-menu li {
+    margin-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    right: 100px;
+}
+
+#cabecalho-menu ul :hover {
+    color: hsl(5, 85%, 63%);
+
+}
+.menu{
+    display: none;
+
+}
+.exit{
+    display: none;
+}
+.two-box-principal {
+    display: flex;
+}
+
+.container-1 {
+    margin: 0 25px 20px 100px;
+    width: 810px;
+}
+
+.img-container {
+    width: 100%;
+}
+
+.text-container {
+    display: flex;
+
+}
+
+.titulo {
+
+    margin: 20px 60px 20px 0;
+}
+
+.titulo h1 {
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+.textos {
+    margin-top: 20px;
+}
+
+.textos p {
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+#btn {
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+
+#btn:hover {
+    background-color: hsl(240, 100%, 5%)
+}
+#btn:active{
+    background-color: hsl(236, 13%, 42%);
+}
+.btn :focus {
+    background-color: hsl(240, 100%, 5%);
+}
+
+.box-new {
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    padding: 35px 20px;
+    width: 300px;
+    height: 510px;
+}
+
+.box-new h1 {
+    color: hsl(35, 77%, 62%);
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+.box-new h2 {
+    cursor: pointer;
+}
+
+.box-new :hover h2 {
+    color: hsl(35, 77%, 62%);
+}
+
+.box-new-text {
+    margin-top: 15px;
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+    font-size: 13px;
+}
+
+.box-new-text p {
+    margin: 10px 0 15px 0;
+    cursor: pointer;
+    color: hsl(233, 8%, 79%);
+
+}
+
+.terceiro-texto-box {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.terceiro-texto-box p {
+    margin: 10px 0 10px 0;
+
+}
+
+.box-3img {
+    display: inline-flex;
+    margin: 40px 0 40px 100px;
+}
+
+.box-3img img {
+    width: 100px;
+}
+
+.box-3img-pq {
+    display: flex;
+    width: 383px;
+
+}
+
+.box-3img h1,
+p {
+    color:hsl(233, 8%, 79%) ;
+}
+
+.box-3img h1,
+p,
+h3 {
+    margin: 10px 0 10px 10px;
+}
+
+
+
+
+
+
+    
